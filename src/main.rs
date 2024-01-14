@@ -14,12 +14,17 @@
       от первого элемента до n-ого. Написать тесты
 */
 
+
+
 fn main() {
     fib(8);
     fib_second(8);
 }
-//без рекурсии
 
+
+
+
+//без рекурсии
 
 fn fib(n: u32) -> u32 {
     let mut fibs = vec![0; (n + 1) as usize];
@@ -41,6 +46,7 @@ fn fib_second(n: u32) -> Vec<u32> {
     for i in 0..n {
         vector.push(fib(i));
     }
+
     vector
 }
 
