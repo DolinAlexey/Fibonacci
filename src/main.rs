@@ -19,6 +19,8 @@ fn main() {
     fib_second(8);
 }
 //без рекурсии
+
+
 fn fib(n: u32) -> u32 {
     let mut fibs = vec![0; (n + 1) as usize];
     fibs[0] = 0;
